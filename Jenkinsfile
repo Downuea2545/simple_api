@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        API_REPO_URL = 'https://github.com/your-username/your-api-repo.git'
-        ROBOT_REPO_URL = 'https://github.com/your-username/your-robot-repo.git'
+        API_REPO_URL = 'https://github.com/Downuea2545/simple_api.git'
+        ROBOT_REPO_URL = 'https://github.com/Downuea2545/simple-api-robot.git'
         IMAGE_NAME = "your-gitlab-registry/your-project/api-app:${BUILD_ID}"
     }
 
